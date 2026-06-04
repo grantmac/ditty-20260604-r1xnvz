@@ -4,9 +4,9 @@ export default function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <main className="min-h-screen bg-[#f7f5ef] px-8 py-12 text-[#171717] sm:px-12">
+    <main className="min-h-screen bg-red-600 px-8 py-12 text-white sm:px-12">
       <section className="mx-auto grid min-h-[calc(100vh-6rem)] max-w-5xl content-center gap-6">
-        <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#6f6a5f]">
+        <p className="text-sm font-bold uppercase tracking-[0.18em] text-red-100">
           Ditty
         </p>
         <h1 className="max-w-3xl text-6xl font-semibold leading-none tracking-normal sm:text-8xl">
