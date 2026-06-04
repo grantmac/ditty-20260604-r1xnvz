@@ -6,6 +6,14 @@ export function IconCar({ className = "h-5 w-5" }) {
   );
 }
 
+export function IconBoltCharge({ className = "h-5 w-5" }) {
+  return (
+    <svg className={className} viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+      <path d="M11 1 4 11h4l-1 8 7-10h-4l1-8z" />
+    </svg>
+  );
+}
+
 export function IconFileLines({ className = "h-5 w-5" }) {
   return (
     <svg className={className} viewBox="0 0 20 20" fill="currentColor" aria-hidden>
@@ -42,6 +50,42 @@ export function IconBolt({ className = "h-6 w-6" }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden>
       <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" />
+    </svg>
+  );
+}
+
+export function IconMail({ className = "h-4 w-4" }) {
+  return (
+    <svg className={className} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden>
+      <rect x="1.5" y="3" width="13" height="10" rx="2" />
+      <path d="m2 4 6 4.5L14 4" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconPhone({ className = "h-4 w-4" }) {
+  return (
+    <svg className={className} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden>
+      <path d="M3 2.5h3l1 3.2L5.6 7.4a8 8 0 0 0 3 3l1.7-1.4 3.2 1V13a1.5 1.5 0 0 1-1.6 1.5A11 11 0 0 1 1.5 4 1.5 1.5 0 0 1 3 2.5z" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconClock({ className = "h-3.5 w-3.5" }) {
+  return (
+    <svg className={className} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden>
+      <circle cx="8" cy="8" r="6.2" />
+      <path d="M8 4.5V8l2.4 1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconWallet({ className = "h-5 w-5" }) {
+  return (
+    <svg className={className} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden>
+      <rect x="2.5" y="4.5" width="15" height="11" rx="2.5" />
+      <path d="M2.5 8h15" />
+      <circle cx="14" cy="11.5" r="1" fill="currentColor" stroke="none" />
     </svg>
   );
 }
